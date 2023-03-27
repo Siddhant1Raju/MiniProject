@@ -64,7 +64,10 @@ class VideoTransformer():
     csv.close()
     cv2.destroyAllWindows()
     vs.stop()
- webrtc_streamer(key="example",video_processor_factory=VideoTransformer)
+
+    
+    
+webrtc_streamer(key="example",video_processor_factory=VideoTransformer)
 
 
 
